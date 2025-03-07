@@ -35,26 +35,34 @@ ConvertEase is an all-in-one file conversion web application that simplifies con
 ## Installation & Setup 📦
 
 1. **Clone the Repository**  
-   ```bash
-   git clone https://github.com/yourusername/ConvertEase.git
-   cd ConvertEase
-2. **Create & Activate a Virtual Environment**
-Windows:
-  ```bash
-  python -m venv venv
-  venv\Scripts\activate
-3. **Install Python Dependencies**
-  ```bash
-  pip install -r requirements.txt
-4. **Install External Tools & Update Paths**
-Poppler:
-Download Poppler for Windows, extract it, and update the poppler_path variable in app.py.
-Tesseract OCR:
-Download Tesseract OCR and ensure it’s installed at:
-C:\Program Files\Tesseract-OCR\tesseract.exe
-(This path is set in app.py.)
-LibreOffice:
-Download LibreOffice and update the libreoffice_path in app.py if necessary.
-Ghostscript:
-Download Ghostscript and ensure gswin64c.exe is in your system PATH if you plan to use PDF compression.
+   Get the project files from the GitHub repository and navigate into the project folder.
 
+2. **Create & Activate a Virtual Environment**  
+   - **Windows:** Set up a virtual environment and activate it.  
+   - **macOS/Linux:** Set up a virtual environment and activate it.
+
+3. **Install Python Dependencies**  
+   Install the required Python packages listed in the project.
+
+4. **Install External Tools & Update Paths**  
+   - **Poppler:** Download Poppler for Windows, extract it, and update the path in `app.py`.  
+   - **Tesseract OCR:** Download Tesseract OCR and ensure it’s installed at `C:\Program Files\Tesseract-OCR\tesseract.exe` (path set in `app.py`).  
+   - **LibreOffice:** Download LibreOffice and update the path in `app.py` if needed.  
+   - **Ghostscript:** Download Ghostscript and ensure it’s accessible in your system PATH for PDF compression.
+
+---
+
+## Usage 🚀
+
+1. **Run the Application**  
+   Start the ConvertEase web application on your local machine.
+
+2. **Open Your Browser**  
+   Go to `http://127.0.0.1:5000` in your web browser.
+
+3. **Convert Your Files**  
+   Choose a conversion type, upload your file, and download the converted result.
+
+---
+
+Enjoy seamless file conversions with ConvertEase!
